@@ -1,0 +1,66 @@
+﻿html{
+    background: url("background.jpg") no-repeat center center fixed;
+}
+
+.window{
+    margin: auto;
+    margin-top: 80px;
+    /*background-color: dimgray;
+    opacity: 0.5;*/
+    background-color: rgba(176, 176, 176, 0.60);
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.header{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.username, .pass{
+    text-align: center;
+    padding: 5px;
+}
+
+.emailrec{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.info{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login{
+    text-align: center;
+    padding: 15px;
+}
+
+.posalji{
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 12px;
+}
+
+#btn_login, #btn_posalji{
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: orangered;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#btn_login:hover, #btn_posalji:hover{
+    background-color: #e63e00;
+}
+
+.passrecovery, .back{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
